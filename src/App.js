@@ -1,9 +1,13 @@
 import Header from './components/header';
+import Home from './components/homeView';
 import './App.css';
 
 function App() {
   return (
-    <Header />
+    <div>
+      <Header />
+      <Home />
+    </div>
   );
 }
 

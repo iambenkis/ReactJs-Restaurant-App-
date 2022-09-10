@@ -1,0 +1,23 @@
+.header {
+    background-color: rgb(187, 187, 187);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: .5rem 2rem;
+}
+
+.header .nav-list {
+    display: flex;
+}
+
+.header img {
+    width: 7rem;
+}
+
+.nav-list li {
+    margin-left: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(148, 101, 0);
+}
