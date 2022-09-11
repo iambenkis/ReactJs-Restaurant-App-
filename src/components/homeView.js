@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import { homeBg } from './home-bg.jpg'
 
 const Home = () => {
     return (
