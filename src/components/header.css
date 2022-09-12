@@ -29,6 +29,7 @@
 .home-page {
     height: 89.9vh;
     z-index: 100;
+    display: none;
 }
 
 .home-page::before {
@@ -93,3 +94,81 @@
 .home-content button:hover{
     background-color: rgb(255, 196, 0);
 }
+
+/* Menu  */
+.menu {
+    display: none;
+}
+
+.menu-text {
+    text-align: center;
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 17%;
+}
+
+.menu-text .try-text {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.menu-text h3 {
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.menu-text .desc-p {
+    font-size: 1.2rem;
+}
+
+.dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.dish {
+    width: 30rem;
+    height: 25rem;
+    position: relative;
+    margin: .3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.dishes img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -19;
+    transition: .5s;
+}
+
+.dish:hover img {
+    opacity: .2;
+}
+
+.dish .details {
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    transform: translateY(-10%);
+    opacity:0;
+    transition: all 0.25s ease-in-out;
+}
+
+.dish:hover .details {
+    transform: translateY(10%);
+    opacity:1;
+    color: goldenrod;
+    font-size: 1.7rem;
+  }
