@@ -172,3 +172,55 @@
     color: goldenrod;
     font-size: 1.7rem;
   }
+
+/* Contacts */
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.inputs {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.inputs input {
+    width: 25%;
+    height: 3rem;
+    margin-left: 1.666%;
+    outline: none;
+    padding: .5rem 1rem;
+    background-color: #efefef;
+    color: #000;
+}
+
+textarea {
+    width: 78.3%;
+    height: 300px;
+    margin-left: 1.7%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #efefef;
+    color: #000;
+    padding: .5rem 1rem;
+    outline: none;
+}
+
+form button {
+    width: 78.3%;
+    height: 3rem;
+    margin-left: 1.7%;
+    transition: .5s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+form button:hover {
+    background-color: goldenrod;
+}

@@ -1,5 +1,3 @@
-
-
 const Contact = (props) => (
     <div className="contact">
          <div className="menu-content">
@@ -14,6 +12,15 @@ const Contact = (props) => (
           doloremque laudantium, totam rem aperiam!
         </p>
       </div>
+      <form>
+        <div className="inputs">
+            <input type='text' placeholder='Username'/>
+            <input type='Email' placeholder='Your email'/>
+            <input type='url' placeholder="WebSite"/>
+        </div>
+        <textarea placeholder="Your message" maxLength="200"></textarea>
+        <button type="submit">SUBMIT</button>
+      </form>
     </div>
     </div>
   );
