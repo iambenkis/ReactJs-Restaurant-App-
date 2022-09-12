@@ -17,11 +17,20 @@
     cursor: pointer;
 }
 
-.nav-list li {
-    margin-left: 1rem;
+.nav-list li{
+    margin-left: 2rem;
     font-size: 1rem;
     cursor: pointer;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
     color: rgb(255, 196, 0);
+}
+
+a:-webkit-any-link:hover {
+    color: rgb(231, 201, 102);
 }
 
 /* Home */
@@ -95,9 +104,6 @@
 }
 
 /* Menu  */
-.menu {
-    /* display: none; */
-}
 
 .menu-text {
     text-align: center;
