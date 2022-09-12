@@ -1,6 +1,3 @@
-// import { dish1 } from './dish1.jpg';
-// import { dish2 } from './dish2.jpg';
-
 const dishes = [
   {
     dishImg: 'https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80',
