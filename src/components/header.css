@@ -38,6 +38,7 @@ a:-webkit-any-link:hover {
 .home-page {
     height: 89.9vh;
     z-index: 100;
+    background-color: rgba(187, 184, 184, 0.281);
 }
 
 .home-page::before {
@@ -54,7 +55,6 @@ a:-webkit-any-link:hover {
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -10;
-    opacity: 0.6;
 }
 
 .home-content {
@@ -68,7 +68,7 @@ a:-webkit-any-link:hover {
 .home-content h1 {
     color: rgb(255, 196, 0);
     font-size: 9rem;
-    font-weight: 600;
+    font-weight: 700;
     font-family: 'Herr Von Muellerhoff', cursive;
 }
 
