@@ -2,7 +2,7 @@
 
 # Benkis Restaurant
 
-> This project I did after the introduction of the React Routingk. The main goal of this project is to show the understanding of the benefits of Routing and how it works with React components.
+> I did  this project after the introduction of the React Routing. The main goal of this project is to show the understanding of Routing and how it works with React components.
 
 ![screenshot](./resto.png)
 
