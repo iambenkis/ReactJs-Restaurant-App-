@@ -2,7 +2,7 @@
 
 # Benkis Restaurant
 
-> This project comes after the introduction of the ES6 class keyword, ES6 modules, and webpack. The main goal of this project is to show the understanding of the benefits of modularized code as well as the ability to set up a javascript application made of different modules using webpack.
+> This project I did after the introduction of the React Routingk. The main goal of this project is to show the understanding of the benefits of Routing and how it works with React components.
 
 ![screenshot](./resto.png)
 
