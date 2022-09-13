@@ -1,6 +1,6 @@
 const Contact = (props) => (
-    <div className="contact">
-         <div className="menu-content">
+  <div className="contact">
+    <div className="menu-content">
       <div className="menu-text">
         <p className="try-text">TRY & DISCOVER</p>
         <h3>CONTACTS</h3>
@@ -14,15 +14,15 @@ const Contact = (props) => (
       </div>
       <form>
         <div className="inputs">
-            <input type='text' placeholder='Username'/>
-            <input type='Email' placeholder='Your email'/>
-            <input type='url' placeholder="WebSite"/>
+          <input type="text" placeholder="Username" />
+          <input type="Email" placeholder="Your email" />
+          <input type="url" placeholder="WebSite" />
         </div>
-        <textarea placeholder="Your message" maxLength="200"></textarea>
+        <textarea placeholder="Your message" maxLength="200" />
         <button type="submit">SUBMIT</button>
       </form>
     </div>
-    </div>
-  );
+  </div>
+);
 
-  export default Contact;
+export default Contact;

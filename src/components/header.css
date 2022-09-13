@@ -1,231 +1,232 @@
 @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+
 .header {
-    background-color: rgb(92, 92, 92);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-    padding: .5rem 2rem;
+  background-color: rgb(92, 92, 92);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 0.5rem 2rem;
 }
 
 .header .nav-list {
-    display: flex;
+  display: flex;
 }
 
 .header img {
-    width: 7rem;
-    cursor: pointer;
+  width: 7rem;
+  cursor: pointer;
 }
 
-.nav-list li{
-    margin-left: 2rem;
-    font-size: 1rem;
-    cursor: pointer;
-    text-decoration: none;
+.nav-list li {
+  margin-left: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 a:-webkit-any-link {
-    text-decoration: none;
-    color: rgb(255, 196, 0);
+  text-decoration: none;
+  color: rgb(255, 196, 0);
 }
 
 a:-webkit-any-link:hover {
-    color: rgb(231, 201, 102);
+  color: rgb(231, 201, 102);
 }
 
 /* Home */
 
 .home-page {
-    height: 89.9vh;
-    z-index: 100;
-    background-color: rgba(187, 184, 184, 0.281);
+  height: 89.9vh;
+  z-index: 100;
+  background-color: rgba(187, 184, 184, 0.281);
 }
 
 .home-page::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 90vh;
-    margin-top: 10vh;
-    background-image: url('./home-bg.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: -10;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  margin-top: 10vh;
+  background-image: url('./home-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -10;
 }
 
 .home-content {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-content h1 {
-    color: rgb(255, 196, 0);
-    font-size: 9rem;
-    font-weight: 700;
-    font-family: 'Herr Von Muellerhoff', cursive;
+  color: rgb(255, 196, 0);
+  font-size: 9rem;
+  font-weight: 700;
+  font-family: 'Herr Von Muellerhoff', cursive;
 }
 
 .home-content h2 {
-    font-size: 5rem;
-    letter-spacing: 2px;
-    color: #fff;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+  letter-spacing: 2px;
+  color: #fff;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .home-content p {
-    color: #fff;
-    font-size: 1.2rem;
-    font-weight: 300;
-    margin: .5rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 0.5rem;
 }
 
 .home-content button {
-    width: 13rem;
-    height: 4rem;
-    color: #fff;
-    font-size: 1.2rem;
-    background-color: rgba(255, 255, 255, 0);
-    border: 3px solid rgb(206, 175, 0);
-    margin-top: 1rem;
-    cursor: pointer;
-    transition: .5s;
+  width: 13rem;
+  height: 4rem;
+  color: #fff;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid rgb(206, 175, 0);
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
-.home-content button:hover{
-    background-color: rgb(255, 196, 0);
+.home-content button:hover {
+  background-color: rgb(255, 196, 0);
 }
 
 /* Menu  */
 
 .menu-text {
-    text-align: center;
-    margin-top: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 17%;
+  text-align: center;
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 17%;
 }
 
 .menu-text .try-text {
-    font-size: 1.7rem;
-    margin-bottom: 1rem;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
 }
 
 .menu-text h3 {
-    font-size: 2.7rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
+  font-size: 2.7rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
 }
 
 .menu-text .desc-p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .dishes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 4rem;
 }
 
 .dish {
-    width: 30rem;
-    height: 25rem;
-    position: relative;
-    margin: .3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    cursor: pointer;
+  width: 30rem;
+  height: 25rem;
+  position: relative;
+  margin: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
 }
 
 .dishes img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -19;
-    transition: .5s;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -19;
+  transition: 0.5s;
 }
 
 .dish:hover img {
-    opacity: .2;
+  opacity: 0.2;
 }
 
 .dish .details {
-    font-size: 1.7rem;
-    text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
-    transform: translateY(-10%);
-    opacity:0;
-    transition: all 0.25s ease-in-out;
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  transform: translateY(-10%);
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
 }
 
 .dish:hover .details {
-    transform: translateY(10%);
-    opacity:1;
-    color: goldenrod;
-    font-size: 1.7rem;
-  }
+  transform: translateY(10%);
+  opacity: 1;
+  color: goldenrod;
+  font-size: 1.7rem;
+}
 
 /* Contacts */
 
-
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
+
 .inputs {
-    width: 100%;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .inputs input {
-    width: 25%;
-    height: 3rem;
-    margin-left: 1.666%;
-    outline: none;
-    padding: .5rem 1rem;
-    background-color: #efefef;
-    color: #000;
+  width: 25%;
+  height: 3rem;
+  margin-left: 1.666%;
+  outline: none;
+  padding: 0.5rem 1rem;
+  background-color: #efefef;
+  color: #000;
 }
 
 textarea {
-    width: 78.3%;
-    height: 300px;
-    margin-left: 1.7%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color: #efefef;
-    color: #000;
-    padding: .5rem 1rem;
-    outline: none;
+  width: 78.3%;
+  height: 300px;
+  margin-left: 1.7%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #efefef;
+  color: #000;
+  padding: 0.5rem 1rem;
+  outline: none;
 }
 
 form button {
-    width: 78.3%;
-    height: 3rem;
-    margin-left: 1.7%;
-    transition: .5s;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-bottom: 2rem;
+  width: 78.3%;
+  height: 3rem;
+  margin-left: 1.7%;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 2rem;
 }
 
 form button:hover {
-    background-color: goldenrod;
+  background-color: goldenrod;
 }

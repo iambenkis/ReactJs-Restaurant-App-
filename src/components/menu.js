@@ -31,17 +31,17 @@ const dishes = [
   },
 ];
 const dishTags = [];
-dishes.map(dish => {
-    dishTags.push(
-        <div className="dish">
-            <img src={dish.dishImg} />
-            <div className="details">
-              <p>{dish.dishName}</p>
-              <h5>{dish.dishPrice}</h5>
-            </div>
-        </div>
-    )
-})
+dishes.map((dish) => {
+  dishTags.push(
+    <div className="dish">
+      <img src={dish.dishImg} />
+      <div className="details">
+        <p>{dish.dishName}</p>
+        <h5>{dish.dishPrice}</h5>
+      </div>
+    </div>,
+  );
+});
 const Menu = (props) => (
   <div className="menu">
     <div className="menu-content">

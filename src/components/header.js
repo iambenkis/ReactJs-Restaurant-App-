@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import './header.css';
 import logo from './resto.png';
 
@@ -11,10 +11,10 @@ const Header = (props) => (
     <img src={logo} />
     <ul className="nav-list">
       <li onClick={tagClicked}>
-          <Link to="/">HOME</Link>
-        </li>
+        <Link to="/">HOME</Link>
+      </li>
       <li onClick={tagClicked}>
-         <Link to="/menu">MENU</Link>
+        <Link to="/menu">MENU</Link>
       </li>
       <li onClick={tagClicked}>
         <Link to="/contact">CONTACTS</Link>
