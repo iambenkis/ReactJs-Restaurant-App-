@@ -1,4 +1,4 @@
-const Contact = (props) => (
+const Contact = () => (
   <div className="contact">
     <div className="menu-content">
       <div className="menu-text">

@@ -30,19 +30,21 @@ const dishes = [
     dishName: 'Fish curry',
   },
 ];
+
 const dishTags = [];
 dishes.map((dish) => {
   dishTags.push(
     <div className="dish">
-      <img src={dish.dishImg} />
+      <img src={dish.dishImg} alt="dish" />
       <div className="details">
         <p>{dish.dishName}</p>
         <h5>{dish.dishPrice}</h5>
       </div>
     </div>,
   );
+  return null;
 });
-const Menu = (props) => (
+const Menu = () => (
   <div className="menu">
     <div className="menu-content">
       <div className="menu-text">

@@ -88,6 +88,16 @@ a:-webkit-any-link:hover {
   margin: 0.5rem;
 }
 
+form button {
+  width: 78.3%;
+  height: 3rem;
+  margin-left: 1.7%;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
 .home-content button {
   width: 13rem;
   height: 4rem;
@@ -98,6 +108,10 @@ a:-webkit-any-link:hover {
   margin-top: 1rem;
   cursor: pointer;
   transition: 0.5s;
+}
+
+form button:hover {
+  background-color: goldenrod;
 }
 
 .home-content button:hover {
@@ -215,18 +229,4 @@ textarea {
   color: #000;
   padding: 0.5rem 1rem;
   outline: none;
-}
-
-form button {
-  width: 78.3%;
-  height: 3rem;
-  margin-left: 1.7%;
-  transition: 0.5s;
-  cursor: pointer;
-  border-radius: 5px;
-  margin-bottom: 2rem;
-}
-
-form button:hover {
-  background-color: goldenrod;
 }

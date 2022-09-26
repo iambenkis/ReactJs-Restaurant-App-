@@ -1,22 +1,19 @@
 import React from 'react';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './header.css';
 import logo from './resto.png';
 
-const tagClicked = () => {
-  console.log('Hello');
-};
-const Header = (props) => (
+const Header = () => (
   <div className="header">
-    <img src={logo} />
+    <img src={logo} alt="logo" />
     <ul className="nav-list">
-      <li onClick={tagClicked}>
+      <li>
         <Link to="/">HOME</Link>
       </li>
-      <li onClick={tagClicked}>
+      <li>
         <Link to="/menu">MENU</Link>
       </li>
-      <li onClick={tagClicked}>
+      <li>
         <Link to="/contact">CONTACTS</Link>
       </li>
     </ul>
