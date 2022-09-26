@@ -1,75 +1,52 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Benkis Restaurant
 
-> Description the project.
+> I did  this project after the introduction of the React Routing. The main goal of this project is to show the understanding of Routing and how it works with React components.
 
+![screenshot](./resto.png)
+
+This website was designed with the tools below:
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Javascript
+- CSS
+- React Js
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**To get the local copy of the project up and running you will need to run the following commands on your terminal:**
 
+`git clone https://github.com/iambenkis/ReactJs-Restaurant-App-.git`
 
-To get a local copy up and running follow these simple example steps.
+To install all the available dependecies run:
+`npm install`
 
-### Prerequisites
+To bundle and transpile the javascript code using webpack run:
+`npm run build` for production, or:
+`npm run dev` for development.
 
-### Setup
+Now you can open up the index.html file (located in the dist directory in chrome) to see the result.
 
-### Install
+## Author
 
-### Usage
+👤 **Benjamin Kisenge (Me)**
 
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+* GitHub: [@benjamin kisenge](https://github.com/iambenkis)
+* Twitter: [@benjamin kisenge](https://twitter.com/iambenkis)
+* LinkedIn: [benjamin kisenge](https://www.linkedin.com/in/ben-kisenge/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/iambenkis/ReactJs-Restaurant-App-/issues).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project!❤️❤️❤️
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+- Microverse)
